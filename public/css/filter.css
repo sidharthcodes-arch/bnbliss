@@ -1,0 +1,36 @@
+/* filters */
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  opacity: 0.7;
+}
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.filter p {
+  font-size: 0.8rem;
+}
+
+/* tax toggler */
+.tax-toggler {
+  border: 1px solid grey;
+  border-radius: 1rem;
+  height: 3.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.card-text i {
+  display: none;
+}
